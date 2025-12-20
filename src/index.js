@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://talksy-backend-dyiw.onrender.com"],
+    origin: ["http://localhost:5173", "https://talksy-frontend-ruddy.vercel.app"],
     credentials: true,
   })
 );
